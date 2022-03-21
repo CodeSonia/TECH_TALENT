@@ -5,6 +5,7 @@
 </header>
 
 <body>
+  <!--main content unique for this spage-->
   <main>
     <div>
       <h1 id="title">Good Vibes Form</h1>
@@ -14,29 +15,111 @@
       <h3>Tell us something positive that happened to you today.</h3>
 
       <!-- input for user-name -->
-      <div>
-        <label class="labels" for="user">Name</label>
-        <input class="input-fields" type="text" id="user" name="user" placeholder="Enter your name">
-      </div>
+      <section>
+        <div>
+          <label class="labels" for="user">Name</label>
+          <input class="input-fields" type="text" id="user" name="user" placeholder="Enter your name">
+        </div>
+      </section>
 
       <!-- input for email -->
-      <div>
-        <label class="labels" for="email">Email</label>
-        <input class="input-fields" type="email" id="email" name="user" placeholder="Enter your email address">
-      </div>
+      <section>
+        <div>
+          <label class="labels" for="email">Email</label>
+          <input class="input-fields" type="email" id="email" name="user" placeholder="Enter your email address">
+        </div>
+      </section>
 
       <!-- input for scaling number -->
-      <div>
-        <label class="labels" for="scaling">On a scale of 1-10, how good was it?</label>
-        <input class="input-fields" type="number" id="scaling" name="scaling" placeholder="Enter a number between 1 and 10" min="1" max="10">
-      </div>
+      <section>
+        <div>
+          <label class="labels" for="scaling">On a scale of 1-10, how good was it?</label>
+          <!-- use of min and max attr to determine value provided -->
+          <input class="input-fields" type="number" id="scaling" name="scaling"
+            placeholder="Enter a number between 1 and 10" min="1" max="10">
+        </div>
+      </section>
+
+      <!-- input for dropdown -->
+      <section>
+        <div class="places">
+          <label for="place">Where did it happen?</label>
+
+          <!-- dropdown menu options -->
+          <select id="place" name="place" class="dropdown">
+            <option value="home">At home</option>
+            <option value="work">At work</option>
+            <option value="shop">At shop</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- input for radio buttons-->
+      <!-- added break element to add breathing space-->
+      <br>
+      <section>
+        <div>
+
+          <span class="labels">At what time of day did it happen?</span>
+          <br>
+          <input type="radio" name="time" id="morning" value="morning">
+          <label for="morning">Morning</label><br>
+
+          <input type="radio" name="time" id="afternoon" value="afternoon">
+          <label for="afternoon"> Afternoon</label><br>
+
+          <input type="radio" name="time" id="evening" value="evening">
+          <label for="evening">Evening</label><br>
+
+        </div>
+      </section>
+
+      <!-- added break element to add breathing space-->
+      <br>
+
+      <!-- input for checkboxes -->
+      <section class="emotions">
+        <label class="labels" for="emotion">What emotions did you experience?
+          <br>
+          <span>(Select all that apply)</span>
+        </label>
+
+        <br>
+
+        <input id="excited" name="emotion" type="checkbox" value="excited">
+        <label for="excited">Excited</label><br>
+
+        <input id="humbled" name="emotion" type="checkbox" value="humbled">
+        <label for="humbled">Humbled</label><br>
+
+        <input id="elated" name="emotion" type="checkbox" value="elated">
+        <label for="elated">Elated</label><br>
+
+        <input id="loved" name="emotion" type="checkbox" value="loved">
+        <label for="loved">Loved</label><br>
+
+        <input id="enthusiastic" name="emotion" type="checkbox" value="enthusiastic">
+        <label for="enthusiastic">Enthusiastic</label><br>
+      </section>
+
+      <!-- Description textarea for the user-->
+      <section>
+        <div>
+          <label class="labels" for="description">Please describe your positive experience.</label>
+          <textarea id="description" name="describe" rows="4" cols="50">Enter your experience here....</textarea>
+        </div>
+      </section>
+
+      <!--submit button-->
+      <section>
+        <div>
+          <input type="submit" value="Submit" class="button">
+        </div>
+      </section>
 
     </div>
-
   </main>
-  <section>
-
-  </section>
+  
 </body>
 
 </html>
