@@ -20,21 +20,29 @@
     <table>
       <thead>
         <tr>
-          <!-- use of colspan 2 so that the h1 takes over 2 cols-->
-          <td colspan="2">
+          <!-- use of colspan 3 so that the h1 takes over 3 cols-->
+          <td colspan="3">
             <h1>Workshop Schedule</h1>
           </td>
         </tr>
         <tr>
           <!-- use of scope attribute for screen readers-->
           <th scope="col">TIME</th>
-          <th scope="col">EVENT</th>
+          <!-- Event is now taking over 2 days-->
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
         </tr>
       </thead>
       <tbody>
         <tr>
+          <th scope="row" class="left">11:00AM</th>
+          <td class="text-align-left">PYTHON 101</td>
+          <td rowspan="4">PYTHON 101</td>
+        </tr>
+        <tr>
           <th scope="row" class="left">12:00PM</th>
           <td class="text-align-left">WELCOME TO THE FESTIVAL</td>
+
         </tr>
         <tr>
           <td scope="row" class="left">01:00 PM</td>
@@ -47,10 +55,12 @@
         <tr>
           <td scope="row" class="left">03:00 PM</td>
           <td class="text-align-left">THE WWW AND HTML</td>
+          <td>CV WORKSHOP</td>
         </tr>
         <tr>
           <td scope="row" class="left">04:00 PM</td>
           <td class="text-align-left">GROUP PROJECT</td>
+          <td><span>SPECIAL:</span> CLOSING SPEECH CEO</td>
         </tr>
       </tbody>
     </table>
@@ -64,4 +74,6 @@
     <h3>Location</h3>
     <h3>Privacy Policy</h3>
   </footer>
+</body>
+
 </html>

@@ -45,7 +45,7 @@ table {
 /* add some breathing space within data entry */
 th,
 td {
-  height: 65px;
+  height: 40px;
 }
 td {
   border: 2px solid #8c6b48;
