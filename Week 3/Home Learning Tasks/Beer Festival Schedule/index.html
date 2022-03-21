@@ -9,53 +9,59 @@
 </head>
 
 <body>
+
+  <!-- header element -->
   <header>
     <h1>TechTalent Academy Coding Festival</h1>
   </header>
+
+  <!-- section containing form -->
   <section>
     <table>
       <thead>
         <tr>
+          <!-- use of colspan 2 so that the h1 takes over 2 cols-->
           <td colspan="2">
             <h1>Workshop Schedule</h1>
           </td>
         </tr>
         <tr>
+          <!-- use of scope attribute for screen readers-->
           <th scope="col">TIME</th>
           <th scope="col">EVENT</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>12:00 PM</td>
-          <td>WELCOME TO THE FESTIVAL</td>
+          <th scope="row" class="left">12:00PM</th>
+          <td class="text-align-left">WELCOME TO THE FESTIVAL</td>
         </tr>
         <tr>
-          <td>01:00 PM</td>
-          <td>PYTHON 101</td>
+          <td scope="row" class="left">01:00 PM</td>
+          <td class="text-align-left">PYTHON 101</td>
         </tr>
         <tr>
-          <td>02:00 PM</td>
-          <td>KEEPING YOU CYBER-SECURE</td>
+          <td scope="row" class="left">02:00 PM</td>
+          <td class="text-align-left">KEEPING YOU CYBER-SECURE</td>
         </tr>
         <tr>
-          <td>03:00 PM</td>
-          <td>THE WWW AND HTML</td>
+          <td scope="row" class="left">03:00 PM</td>
+          <td class="text-align-left">THE WWW AND HTML</td>
         </tr>
         <tr>
-          <td>04:00 PM</td>
-          <td>GROUP PROJECT</td>
+          <td scope="row" class="left">04:00 PM</td>
+          <td class="text-align-left">GROUP PROJECT</td>
         </tr>
       </tbody>
     </table>
-    
   </section>
 
+  <!-- footer section wrapped around it's own element-->
   <footer>
+
+    <!-- used h3 tags as illustrated on schedule-->
     <h3>Contact</h3>
     <h3>Location</h3>
     <h3>Privacy Policy</h3>
   </footer>
-
-
 </html>
