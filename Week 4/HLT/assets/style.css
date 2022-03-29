@@ -1,0 +1,52 @@
+/* Import font from Google Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Target every element */
+* {
+  /* adds padding & border for later CSS rules */
+  box-sizing: border-box;
+
+  /* General font size & will use rem for later declaring additional font */
+  font-size: 16px;
+}
+
+/* General Styling */
+
+body {
+  /* Added back-up font just in case nunito does not work */
+  font-family: "Nunito", sans-serif;
+  color: #313639;
+}
+
+/* Header Styling */
+#header {
+  margin-top: 80px;
+}
+
+nav {
+  background-color: #d5f3d5;
+  /* added shadow element to bring life to element*/
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 20px;
+  /* override color so it is not default blue link color */
+  color: #313639;
+}
+
+/* when a user hovers over a navbar item, it shows user feedback with an underline so user knows where they are */
+a:hover {
+    border-bottom: 4px solid #26402c;
+}
