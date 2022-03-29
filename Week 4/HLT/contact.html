@@ -8,6 +8,7 @@
 
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/contact.css" type="text/css">
 
     <!-- Title Tag -->
     <title>SimDeals - Discover wide range of mobile contract and pay-as-you go deals for your mobile devices </title>
@@ -41,37 +42,34 @@
         </header>
     </section>
 
-    <section id="landing-page-section">
+    <!-- Contact form section -->
+    <section id="contact-section">
         <div class="container">
-            <div class="landing-left">
-                <img src="assets/images/sim.png" alt="sim logo" id="sim-logo">
-                <h1>SimDeals</h1>
-                <h3>Sim plans for phones - Become 5G ready!</h3>
-                <p>When you're happy with the phone you've got, SimDeals is a great choice. Start ordering and get in touch!</p>
-                <div id="landing-buttons">
-                    <button class="learn-button"><a href="about.html">Learn More</a></button>
-                    <button class="order-button"><a href="">Order Now</a></button>
-                </div>
-            </div>
-            <div class="landing-right">
-                <!-- Animation start -->
-                <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_kttbilte.json"
-                    background="transparent" speed="0.8" style="width: 100%;" loop autoplay>
-                </lottie-player>
-            </div>
+            <form action="" method="POST">
+                <h1>Contact Form</h1>
+
+                <!-- Contact form is simple so no labels -->
+    
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <textarea placeholder="Message" name="message" required></textarea>
+                <input type="submit" value="Send" class="btn">
+        
+            </form>
         </div>
     </section>
-    
+
     <!-- Footer section start-->
     <section id="footer-section">
         <footer>
-            <div class="container"> 
+            <div class="container">
                 <!-- Subsection - about -->
                 <div class="footer-about">
                     <h5>About</h5>
                     <hr>
                     <p>Discover a wide-range of 5G ready SimDeals plans. SimDeals launched in 2020 as the UK's first
-                        5G only network, laying it's foundations as the network that was born innovative and cost-effective!</p>
+                        5G only network, laying it's foundations as the network that was born innovative and
+                        cost-effective!</p>
 
                 </div>
 

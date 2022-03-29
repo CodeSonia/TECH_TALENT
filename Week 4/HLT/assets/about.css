@@ -1,0 +1,146 @@
+/* CSS file specifically for about page to keep files clean and separate */
+
+.about-right img {
+  width: 70%;
+  border-radius: 1%;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.about-left {
+  padding-right: 20px;
+  width: 40%;
+  margin-top: 4rem;
+}
+
+.about-left h1 {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.about-hr {
+  /* move the hr to the left*/
+  margin-left: 0;
+}
+
+#about-section {
+  margin-top: 10rem;
+}
+
+.circle {
+  height: 30rem;
+  width: 30rem;
+  background-color: #67b26f;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -999999;
+  left: 1250px;
+  bottom: 450px;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+
+/* Feature Styling */
+#features-section {
+  margin-top: 2rem;
+}
+
+.feature {
+  background: #00b4db;
+  background: -webkit-linear-gradient(to right, #0083b0, #00b4db);
+  background: linear-gradient(to right, #0083b0, #00b4db);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  color: #f1f1f1;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.feature i {
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.feature p {
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+
+/* Form section */
+#newsletter-section {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+form h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+form {
+  background: #67b26f;
+  background: -webkit-linear-gradient(to right, #4ca2cd, #67b26f);
+  background: linear-gradient(to right, #4ca2cd, #67b26f);
+  margin-bottom: 50px;
+  padding: 1rem 3rem 5rem;
+  width: 100%;
+  border-radius: 4rem;
+}
+
+form .flex {
+  /*specifies whether the flexible items should wrap or not*/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form label {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+form input[type="email"] {
+  padding: 10px 25px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 0;
+  color: #263740;
+  display: inline-block;
+  font-size: 14px;
+  flex: 1;
+}
+
+.btn {
+  background: #defade;
+  color: #263740;
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  transition-duration: 0.3s;
+}
