@@ -1,0 +1,1 @@
+firstValue = prompt("Give us a number:")

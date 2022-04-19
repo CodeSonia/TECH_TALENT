@@ -15,7 +15,17 @@ for (let fruit in fruits) {
      * The for loop determines how many vowels and
      * consonants there are
      */
-    for (let i = 0; i < fruits[fruit].length; i++ ) {
+    for (let i = 0; i < fruits[fruit].length.toLowerCase(); i++ ) {
+
+        /**
+         * You could remove the capitals letters from the cases 
+         * as the below method will reduce the array elements
+         * to lower case i.e. Apple = apple.
+         * 
+         * When I comment the capital letter cases in the switch
+         * the results are still the same. Just another alternative.
+         */
+        fruits[fruit].toLowerCase();
       
         // using switch to determine what to add to vowels and consonants
         switch (fruits[fruit][i]) {
