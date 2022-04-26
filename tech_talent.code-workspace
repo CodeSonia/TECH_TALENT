@@ -3,5 +3,11 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"Week 8/HLT",
+			"Week 8/Practice"
+		]
+	}
 }
