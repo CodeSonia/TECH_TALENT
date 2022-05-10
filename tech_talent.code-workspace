@@ -6,8 +6,10 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
+			"Week 9/Demos",
+			"Week 8/Practice",
 			"Week 8/HLT",
-			"Week 8/Practice"
+			"Week 9"
 		]
 	}
 }
